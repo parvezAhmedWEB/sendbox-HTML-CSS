@@ -4,13 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sendbox</title>
+    <!-- box icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
     <!-- link stylesheet -->
     <link rel="stylesheet" href="src/css/genarel.css" />
     <link rel="stylesheet" href="src/css/responsive.css" />
     <link rel="stylesheet" href="src/css/style.css" />
   </head>
   <body>
-    <h1>hello</h1>
+    <header class="header-section">
+      <!-- navber -->
+      <nav class="navber-wraper">
+        <div class="container flex jc-sb ai-c">
+          <a href="#home">
+            <img
+              class="navber__logo"
+              src="src/assets/logo-dark.png"
+              alt="Logo"
+            />
+          </a>
+          <nav class="navber-menu">
+            <ul class="menu-items flex f-g-1">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#faqs">FAQs</a></li>
+              <li><a href="#customers">Customers</a></li>
+              <li><a href="#about">About</a></li>
+            </ul>
+          </nav>
+          <div class="navber-right">
+            <ul class="navber-right-menu flex ai-c f-g-1">
+              <li><a href="#">EN</a></li>
+              <li><i class="bx bx-info-circle"></i></li>
+            </ul>
+          </div>
+          <!-- mobile menu -->
+          <div class="mobile-menu mobile-menu-close">
+            <p><i class="bx bx-menu-alt-right"></i></p>
+            <nav class="mobile-nav">
+              <div class="mobile-nav-top flex jc-sb ai-c">
+                <h3>Sendbox</h3>
+                <p><i class="bx bx-x"></i></p>
+              </div>
+              <div class="mobile-nav-center">
+                <ul class="mobile-menu-items flex fd-c f-g-1">
+                  <li>
+                    <a href="#home" class="flex jc-sb"
+                      >Home <span><i class="bx bx-chevron-right"></i></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#features" class="flex jc-sb"
+                      >Features <span><i class="bx bx-chevron-right"></i></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#faqs" class="flex jc-sb"
+                      >FAQs <span><i class="bx bx-chevron-right"></i></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#customers" class="flex jc-sb"
+                      >Customers <span><i class="bx bx-chevron-right"></i></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#about" class="flex jc-sb"
+                      >About <span><i class="bx bx-chevron-right"></i></span
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="mobile-nav-bottom">
+                <address>
+                  <p>info@gmail.com</p>
+                  <p>01710035281</p>
+                </address>
+                <div class="mobile-icons flex">
+                  <p><i class="bx bxl-twitter"></i></p>
+                  <p><i class="bx bxl-facebook"></i></p>
+                  <p><i class="bx bxl-linkedin"></i></p>
+                  <p><i class="bx bxl-whatsapp"></i></p>
+                  <p><i class="bx bxl-youtube"></i></p>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+    </header>
     <!-- script JS -->
     <script src="src/js/main.js"></script>
   </body>

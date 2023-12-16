@@ -1,0 +1,46 @@
+/* 
+    1. Navber section
+    2. Banner section
+    3. Features section
+    4. Works section
+    5. FAQs section
+    6. Choose section
+    7. Customers section
+    8. Place section
+    9. Footer section
+*/
+/* 1. navber section start */
+.header-section {
+  height: 100vh;
+}
+.navber-wraper {
+  padding: 2.6rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.menu-items li a,
+.navber-right-menu li a {
+  font-size: var(--f-link);
+  color: var(--cls-text);
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+.menu-items li a:hover,
+.navber-right-menu li a:hover {
+  color: #605dba;
+}
+.navber-right-menu li > i {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+.mobile-menu {
+  display: none;
+}
+.mobile-menu p > i {
+  font-size: 3.2rem;
+  color: var(--cls-text);
+}
+/* 1. navber section end */

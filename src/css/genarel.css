@@ -2,6 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
 /* root variables start */
 :root {
+  /* font size */
+  --f-large: ;
+  --f-medium: ;
+  --f-small: ;
+  --f-normal: ;
+  --f-link: 1.7rem;
+  --f-icon: ;
+  /* colors */
+  --cls-text: #343f52;
+  --cls-white: #fff;
+  /* bg colors */
+  --bg-1: #1e2228;
+  --bg-2: #808080;
 }
 /* root variables end */
 /* removing default style start */
@@ -25,5 +38,28 @@ svg {
   max-width: 100%;
   height: auto;
 }
-
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+  height: inherit;
+}
+.bor {
+  border: 1px solid red;
+}
 /* removing default style end */
+/* flex */
+.flex {
+  display: flex;
+}
+.fd-c {
+  flex-direction: column;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.ai-c {
+  align-items: center;
+}
+.f-g-1 {
+  gap: 1.7rem;
+}

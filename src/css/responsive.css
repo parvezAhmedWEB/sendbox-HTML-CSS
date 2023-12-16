@@ -1,0 +1,108 @@
+/* 
+    1. Navber section
+    2. Banner section
+    3. Features section
+    4. Works section
+    5. FAQs section
+    6. Choose section
+    7. Customers section
+    8. Place section
+    9. Footer section
+*/
+/* ? 1400px start */
+@media screen and (max-width: 1400px) {
+  /* general style start */
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+    height: inherit;
+  }
+  /* general style end */
+}
+/* ! 1400px end */
+/* ? 1200px start */
+@media screen and (max-width: 1200px) {
+  /* general style start */
+  /* general style end */
+}
+/* ! 1200px end */
+/* ? 992px start */
+@media screen and (max-width: 992px) {
+  /* general style start */
+  /* general style end */
+  /* ? navber start */
+  .navber-menu {
+    display: none;
+  }
+  .navber-right {
+    display: none;
+  }
+  .mobile-menu {
+    display: block !important;
+  }
+  .mobile-nav {
+    padding: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30rem;
+    height: 100vh;
+    background-color: var(--bg-1);
+    color: #fff;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .mobile-nav.mobile-nav-open {
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  .mobile-nav-top h3 {
+    font-size: 2.6rem;
+  }
+  .mobile-nav-top p > i {
+    font-size: 2.2rem;
+    color: var(--cls-white) !important;
+  }
+  .mobile-menu-items {
+    margin-top: 3rem;
+  }
+  .mobile-menu-items li a {
+    font-size: var(--f-link);
+    color: var(--cls-white);
+    transform: translateX(-10px);
+    transition: transform 0.3s ease-in-out;
+  }
+  .mobile-menu-items li a:hover span {
+    transform: translateX(10px);
+    transition: transform 0.5s ease-in-out;
+  }
+  .mobile-nav-bottom {
+    position: absolute;
+    bottom: 3rem;
+  }
+  .mobile-nav-bottom address > p {
+    font-size: 1.2rem;
+  }
+  .mobile-icons {
+    gap: 1.8rem;
+    margin-top: 2rem;
+  }
+  .mobile-icons > p > i {
+    font-size: 2.8rem !important;
+    color: var(--cls-white) !important;
+  }
+  /* ! navber end */
+}
+/* ! 992px end */
+/* ? 768px start */
+@media screen and (max-width: 768px) {
+  /* general style start */
+  /* general style end */
+}
+/* ! 768px end */
+/* ? 576px start */
+@media screen and (max-width: 576px) {
+  /* general style start */
+  /* general style end */
+}
+/* ! 576px end */
